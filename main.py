@@ -241,7 +241,7 @@ def start_bot():
         except Exception as e:
             pass
             bot.send_message(chat_id=message.chat.id,
-                             text='Oups, quelque chose s'est mal passé',
+                             text="Oups, quelque chose s'est mal passé",
                              reply_markup=menu.menu_access_yes)
 
     def order_payout_3(message):
@@ -279,11 +279,11 @@ start_bot()
 
 d, balance.sum, message.from_user.username, balance.number)
             bot.send_message(message.chat.id,
-                             text='✅ Запрос на вывод успешно создан',
+                             text='✅ Demande de retrait créée avec succès',
                              reply_markup=menu.menu_access_yes)
         if message.text == 'No':
             bot.send_message(message.chat.id,
-                             text='❌ Вы отменили создание запроса на вывод средств',
+                             text='❌ Vous avez annulé la création d'une demande de retrait',
                              reply_markup=menu.menu_access_yes)
 
     bot.polling(none_stop=True)
