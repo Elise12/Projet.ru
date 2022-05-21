@@ -218,7 +218,7 @@ def start_bot():
 
         except Exception as e:
             bot.send_message(chat_id=message.chat.id,
-                             text='Oups, quelque chose s'est mal passéу',
+                             text="Oups, quelque chose s'est mal passéу",
                              reply_markup=menu.btn_back_to_admin_menu)
 
     def order_payout_2(message):
@@ -269,7 +269,7 @@ def start_bot():
                              reply_markup=menu.menu_access_yes)
         if message.text == 'No':
             bot.send_message(message.chat.id,
-                             text='❌Vous avez annulé la création d'une demande de retrait',
+                             text="❌Vous avez annulé la création d'une demande de retrait",
                              reply_markup=menu.menu_access_yes)
 
     bot.polling(none_stop=True)
@@ -283,7 +283,7 @@ d, balance.sum, message.from_user.username, balance.number)
                              reply_markup=menu.menu_access_yes)
         if message.text == 'No':
             bot.send_message(message.chat.id,
-                             text='❌ Vous avez annulé la création d'une demande de retrait',
+                             text="❌ Vous avez annulé la création d'une demande de retrait",
                              reply_markup=menu.menu_access_yes)
 
     bot.polling(none_stop=True)
