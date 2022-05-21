@@ -1,0 +1,32 @@
+Informations sur le robot :
+ - Écrit en Python 3
+ - Utilise des bibliothèques: pyTelegramBotAPI
+
+Installation Linux:
+Installation Linux :
+ Mise à jour et installation des bibliothèques :
+- sudo apt update
+- sudo apt-get install python3-pip
+- pip3 install pyTelegramBotAPI
+
+	Je recommande d'utiliser tmux
+ pour l'installer tapez apt install tmux
+ après tmux new -s bot (cela créera une nouvelle session)
+ alors vous pouvez démarrer le bot
+
+Lancement du robot :
+- Lancement du robot :
+ - Allez dans le répertoire avec le bot et écrivez : python3 main.py
+
+	Installation Windows:
+- Avoir besoin Python 3 versions
+versions
+ Mise à jour et installation des bibliothèques :
+- pip install pyTelegramBotAPI
+- Pour commencer, allez dans le répertoire avec le script et écrivez : python main.py
+
+	Configuration du robot :
+ - Les paramètres principaux sont dans settings.py, tout y est signé, donc je pense que vous comprendrez.�риптом и пропишите: python main.py
+
+	Настройка бота:
+- Основные настройки находятся в settings.py там все подписано, так что думаю разберётесь.
